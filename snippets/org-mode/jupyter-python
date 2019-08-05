@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: jupyter-python
+# key: jupy_
+# --
+#+BEGIN_SRC jupyter-python :session ${1:/jpy:localhost#8888:python} :async ${2:yes} :exports ${3:both}
+$0
+#+END_SRC

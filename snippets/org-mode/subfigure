@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: subfigure
+# key: subfig_
+# --
+#+name: ${1:fig:}
+#+caption: ${2:caption}
+#+attr_latex: :environment subfigure ${3::width 0.75\columnwidth} :algin ${4:c} $0

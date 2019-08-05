@@ -4,6 +4,6 @@
 # --
 \begin{figure}[ht]
   \centering
-  \includegraphics[${1:options}]{figures/${2:path.pdf}}
+  \includegraphics[width=.${1:8}\columnwidth]{${2:path.pdf}}
   \caption{\label{fig:${3:label}} $0}
 \end{figure}
