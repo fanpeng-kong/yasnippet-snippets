@@ -2,6 +2,6 @@
 # name: jupyter-python-local
 # key: jupyl_
 # --
-#+BEGIN_SRC jupyter-python :session ${1:python} :async ${2:yes} :exports ${3:both}
+#+BEGIN_SRC jupyter-python :session ${1:py3} :async ${2:yes} :exports ${3:both}
 $0
 #+END_SRC

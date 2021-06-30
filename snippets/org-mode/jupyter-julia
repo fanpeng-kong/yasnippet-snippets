@@ -2,6 +2,6 @@
 # name: jupyter-julia
 # key: juju_
 # --
-#+BEGIN_SRC jupyter-julia :session ${1:/jpy:localhost#8888:julia} :async ${2:yes}
+#+BEGIN_SRC jupyter-julia :session ${1:/jpy:localhost#8888:julia} :async ${2:yes} :exports ${3:both}
 $0
 #+END_SRC

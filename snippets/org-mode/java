@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: java
+# key: ja_
+# --
+#+BEGIN_SRC java :dir ${1:.java} :classname ${2:ClassName} :results ${3:output}
+$0
+#+END_SRC

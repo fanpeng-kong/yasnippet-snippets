@@ -2,6 +2,6 @@
 # name: jupyter-python-server
 # key: jupys_
 # --
-#+BEGIN_SRC jupyter-python :session ${1:/jpy:localhost#8888:python} :async ${2:yes} :exports ${3:both}
+#+BEGIN_SRC jupyter-python :session ${1:/jpy:localhost#8888:py3} :async ${2:yes} :exports ${3:both}
 $0
 #+END_SRC
